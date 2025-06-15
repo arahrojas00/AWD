@@ -3,11 +3,11 @@ En la siguiente seccion se realizara el analisis de la pierna izquierda del robo
 
 Pasos:
 
-1. Obtuvimos de rviz los ejes de nuestro robot para vizualizar como estan orientados.
+1. Obtuvimos de rviz los ejes de nuestro robot para visualizar como están orientados.
 
     ![alt text](image-3.png)
 
-    Foto 1. Ejes de nuestro robot bipoide
+    Foto 1. Ejes de nuestro robot bipedo
 
     En Gazebo el eje rojo es X, el eje verde es Y, y el eje azul es Z.
 
@@ -62,12 +62,12 @@ Pasos:
 
     El procedimiento que se realizo para llegar a esto estuvo basado en el URDF:
 
-    Parra determinar las Z se colocaron en la direccion de rotacion de cada articulacion.
+    Para determinar las Z se colocaron en la direccion de rotacion de cada articulación.
     Con los parametros a y d se tomaron los valores de origin del urdf segun el eje que correspondiera. 
 
      a. left-hip-yaw
 
-     z1 apunta hacia abajo. d es la distancia vertical desde el pelvis hasta la ariculacion. a es el desplazamiento laateral en Y. Como el eje Z1 es perpendicular al Z0 del pelvis, el ángulo twist α es -90° (o -π/2 radianes). La variable θ1 representa el ángulo de rotación de la articulación.
+     z1 apunta hacia abajo. d es la distancia vertical desde el pelvis hasta la ariculacion. a es el desplazamiento lateral en Y. Como el eje Z1 es perpendicular al Z0 del pelvis, el ángulo twist α es -90° (o -π/2 radianes). La variable θ1 representa el ángulo de rotación de la articulación.
 
      b. Left_hip_roll
 
